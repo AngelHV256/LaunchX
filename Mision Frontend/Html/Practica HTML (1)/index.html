@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Universo Mexa</title>
+  </head>
+  <body>
+    <header>
+      <h1>UNIVERSO MEXA</h1>
+    </header>
+
+    <img src="./logo_universoMexa.png" alt="logo_tacos" />
+
+    <h2>Menú</h2>
+    <h3>Tacos</h3>
+    <p>Los mejores de la via lactea</p>
+    <ul>
+      <li><b>Suadero</b>-----------------------------------------$150</li>
+      <li><b>Tripa</b>---------------------------------------------$150</li>
+      <li><b>Campechano</b>-----------------------------------$150</li>
+    </ul>
+    <h3>Tortas</h3>
+    <ul>
+      <li><b>Jamon</b></li>
+      <li><b>Milanesa</b></li>
+      <li><b>Chorizo</b></li>
+    </ul>
+    <h3>Postres</h3>
+    <dl>
+      <dt><b>Churros</b></dt>
+      <dd>-Para un viaje de ida y vuelta</dd>
+      <dt><b>Arroz con leche</b></dt>
+      <dd>-Para parejitas empedernidas</dd>
+      <dt><b>Cafe</b></dt>
+      <dd>-Mas amargo que el caracter de tu gfe</dd>
+    </dl>
+    <hr />
+    <h2>Ubicacion</h2>
+    <h3>Sucursales</h3>
+    <table>
+      <tr>
+        <th>Sucursal</th>
+        <th>Direccion</th>
+        <th>Horarios</th>
+      </tr>
+      <tr>
+        <td>Centro</td>
+        <td>
+          <a href="#" target="_blank" rel="noopener noreferrer"
+            >Colonia Roma #1450</a
+          >
+        </td>
+        <td>Lunes a Sabado 9:00-22:00</td>
+      </tr>
+      <tr>
+        <td>Sur</td>
+        <td>
+          <a href="#" target="_blank" rel="noopener noreferrer"
+            >Del. Coyoacan #96</a
+          >
+        </td>
+        <td>Lunes a Sabado 9:00-22:00</td>
+      </tr>
+      <tr>
+        <td>Poniente</td>
+        <td>
+          <a href="#" target="_blank" rel="noopener noreferrer"
+            >Nezayork Col. Maravillas #86 M.2 L.5</a
+          >
+        </td>
+        <td>Lunes a Sabado 9:00-22:00</td>
+      </tr>
+    </table>
+    <hr />
+    <h2>Pedidos</h2>
+    <form action="">
+      <h3>Pide tus takitos</h3>
+      <p>Selecciona tu taqueria</p>
+      <select name="taqueria" id="taqueria">
+        <option value="Centro">Centro</option>
+        <option value="Sur">Sur</option>
+        <option value="Poniente">Poniente</option>
+      </select>
+      <p>Que taco que vas a fregar?</p>
+      <input type="checkbox" name="Suadero" id="Suadero" value="Suadero" />
+      <label for="Suadero">Suadero</label>
+      <input
+        type="number"
+        name="cantidad"
+        id="cantidad"
+        placeholder="Cuantos"
+      />
+      <br />
+      <input type="checkbox" name="Tripa" id="Tripa" value="Tripa" />
+      <label for="Tripa">Tripa</label>
+      <input
+        type="number"
+        name="cantidad"
+        id="cantidad"
+        placeholder="Cuantos"
+      />
+      <br />
+      <input
+        type="checkbox"
+        name="Campechano"
+        id="Campechano"
+        value="Campechano"
+      />
+      <label for="Campechano">Campechano</label>
+      <input
+        type="number"
+        name="cantidad"
+        id="cantidad"
+        placeholder="Cuantos"
+      />
+      <br /><br />
+      <label for="Nombre">Como se llama usted joven?</label>
+      <input
+        type="text"
+        name="Nombre"
+        id="Nombre"
+        placeholder="Para quien son guero?"
+      />
+      <br /><br />
+      <label for="Direccion">A donde lo mandamos?</label>
+      <input
+        type="text"
+        name="Direccion"
+        id="Direccion"
+        placeholder="A donde lo mandamos?"
+      />
+      <button type="submit">Mandamelos de volada</button>
+      <br /><br />
+    </form>
+  </body>
+</html>
