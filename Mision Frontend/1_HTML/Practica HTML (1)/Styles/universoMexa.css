@@ -1,3 +1,41 @@
-*{
-  background-color: aqua;
+body {
+  background-color: #fa8bff;
+  background-image: linear-gradient(
+    45deg,
+    #fa8bff 0%,
+    #2bd2ff 52%,
+    #2bff88 90%
+  );
+  font-family: 'Michroma', sans-serif;
+}
+
+header{
+  font-size: 3rem;
+  margin-top: 0px;
+  padding: 0;
+  border: 0;
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  color: #f7a3ee;
+}
+
+.logo{
+  width: 100px;
+  height: 100px;
+}
+
+h1{
+  margin: 0px;
+}
+
+h2{
+  font-size: 2rem;
+  text-align: center;
+}
+
+section{
+  display: flexbox;
+  justify-content:center ;
+  align-items: center;
 }
