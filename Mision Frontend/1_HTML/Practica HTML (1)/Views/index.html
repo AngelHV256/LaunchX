@@ -16,130 +16,136 @@
   <body>
     <header>
       <h1>UNIVERSO MEXA</h1>
-      <img class="logo" src="../Assets/Img/logo_universoMexa.gif" alt="logo_tacos" />
+      <img
+        class="logo"
+        src="../Assets/Img/logo_universoMexa.gif"
+        alt="logo_tacos"
+      />
     </header>
-    <section>
-    <h2>Menú</h2>
-    <h3>Tacos</h3>
-    <p>Los mejores de la via lactea</p>
-    <ul>
-      <li><b>Suadero</b>-----------------------------------------$150</li>
-      <li><b>Tripa</b>---------------------------------------------$150</li>
-      <li><b>Campechano</b>-----------------------------------$150</li>
-    </ul>
-    <h3>Tortas</h3>
-    <ul>
-      <li><b>Jamon</b></li>
-      <li><b>Milanesa</b></li>
-      <li><b>Chorizo</b></li>
-    </ul>
-    <h3>Postres</h3>
-    <dl>
-      <dt><b>Churros</b></dt>
-      <dd>-Para un viaje de ida y vuelta</dd>
-      <dt><b>Arroz con leche</b></dt>
-      <dd>-Para parejitas empedernidas</dd>
-      <dt><b>Cafe</b></dt>
-      <dd>-Mas amargo que el caracter de tu gfe</dd>
-    </dl>
-    <hr />
+    <section class="menu">
+      <h2>Menú</h2>
+      <h3>Tacos</h3>
+      <p>Los mejores de la via lactea</p>
+      <ul>
+        <li><b>Suadero</b>-----------------------------------------$150</li>
+        <li><b>Tripa</b>---------------------------------------------$150</li>
+        <li><b>Campechano</b>-----------------------------------$150</li>
+      </ul>
+      <h3>Tortas</h3>
+      <p>Para quitarte el hambre</p>
+      <ul>
+        <li>Jamon--------------------------------------------$150</li>
+        <li>Milanesa-----------------------------------------$150</li>
+        <li>Chorizo-------------------------------------------$150</li>
+        <li>Pierna---------------------------------------------$150</li>
+      </ul>
+      <h3>Postres</h3>
+      <dl>
+        <dt><b>Churros</b></dt>
+        <dd>-Para un viaje de ida y vuelta</dd>
+        <dt><b>Arroz con leche</b></dt>
+        <dd>-Para parejitas empedernidas</dd>
+        <dt><b>Cafe</b></dt>
+        <dd>-Mas amargo que el caracter de tu gfe</dd>
+      </dl>
+      <hr />
     </section>
-    <section>
-    <h2>Ubicacion</h2>
-    <h3>Sucursales</h3>
-    <table>
-      <tr>
-        <th>Sucursal</th>
-        <th>Direccion</th>
-        <th>Horarios</th>
-      </tr>
-      <tr>
-        <td>Centro</td>
-        <td>
-          <a href="#" rel="noopener noreferrer">Colonia Roma #1450</a>
-        </td>
-        <td>Lunes a Sabado 9:00-22:00</td>
-      </tr>
-      <tr>
-        <td>Sur</td>
-        <td>
-          <a href="#" rel="noopener noreferrer">Del. Coyoacan #96</a>
-        </td>
-        <td>Lunes a Sabado 9:00-22:00</td>
-      </tr>
-      <tr>
-        <td>Poniente</td>
-        <td>
-          <a href="#" rel="noopener noreferrer"
-            >Nezayork Col. Maravillas #86 M.2 L.5</a
-          >
-        </td>
-        <td>Lunes a Sabado 9:00-22:00</td>
-      </tr>
-    </table>
-    <hr />
+    <section  class="ubicaciones">
+      <h2>Ubicacion</h2>
+      <h3>Sucursales</h3>
+      <table>
+        <tr>
+          <th>Sucursal</th>
+          <th>Direccion</th>
+          <th>Horarios</th>
+        </tr>
+        <tr>
+          <td>Centro</td>
+          <td>
+            <a href="#" rel="noopener noreferrer">Colonia Roma #1450</a>
+          </td>
+          <td>Lunes a Sabado 9:00-22:00</td>
+        </tr>
+        <tr>
+          <td>Sur</td>
+          <td>
+            <a href="#" rel="noopener noreferrer">Del. Coyoacan #96</a>
+          </td>
+          <td>Lunes a Sabado 9:00-22:00</td>
+        </tr>
+        <tr>
+          <td>Poniente</td>
+          <td>
+            <a href="#" rel="noopener noreferrer"
+              >Nezayork Col. Maravillas #86 M.2 L.5</a
+            >
+          </td>
+          <td>Lunes a Sabado 9:00-22:00</td>
+        </tr>
+      </table>
+      <hr />
     </section>
-    <section>
-    <h2>Pedidos</h2>
-    <form action="">
-      <h3>Pide tus takitos</h3>
-      <p>Selecciona tu taqueria</p>
-      <select name="taqueria" id="taqueria">
-        <option value="Centro">Centro</option>
-        <option value="Sur">Sur</option>
-        <option value="Poniente">Poniente</option>
-      </select>
-      <p>Que taco que vas a fregar?</p>
-      <input type="checkbox" name="Suadero" id="Suadero" value="Suadero" />
-      <label for="Suadero">Suadero</label>
-      <input
-        type="number"
-        name="cantidad"
-        id="cantidad"
-        placeholder="Cuantos"
-      />
-      <br />
-      <input type="checkbox" name="Tripa" id="Tripa" value="Tripa" />
-      <label for="Tripa">Tripa</label>
-      <input
-        type="number"
-        name="cantidad"
-        id="cantidad"
-        placeholder="Cuantos"
-      />
-      <br />
-      <input
-        type="checkbox"
-        name="Campechano"
-        id="Campechano"
-        value="Campechano"
-      />
-      <label for="Campechano">Campechano</label>
-      <input
-        type="number"
-        name="cantidad"
-        id="cantidad"
-        placeholder="Cuantos"
-      />
-      <br /><br />
-      <label for="Nombre">Como se llama usted joven?</label>
-      <input
-        type="text"
-        name="Nombre"
-        id="Nombre"
-        placeholder="Para quien son guero?"
-      />
-      <br /><br />
-      <label for="Direccion">A donde lo mandamos?</label>
-      <input
-        type="text"
-        name="Direccion"
-        id="Direccion"
-        placeholder="A donde lo mandamos?"
-      />
-      <button type="submit">Mandamelos de volada</button>
-      <br /><br />
-    </form>
+    <section class="pedidos">
+      <h2>Pedidos</h2>
+      <form action="">
+        <h3>Pide tus takitos</h3>
+        <p>Selecciona tu taqueria</p>
+        <select name="taqueria" id="taqueria">
+          <option value="Centro">Centro</option>
+          <option value="Sur">Sur</option>
+          <option value="Poniente">Poniente</option>
+        </select>
+        <p>Que taco te vas a fregar?</p>
+        <input type="checkbox" name="Suadero" id="Suadero" value="Suadero" />
+        <label for="Suadero">Suadero</label>
+        <input
+          type="number"
+          name="cantidad"
+          id="cantidad"
+          placeholder="Cuantos"
+        />
+        <br />
+        <input type="checkbox" name="Tripa" id="Tripa" value="Tripa" />
+        <label for="Tripa">Tripa</label>
+        <input
+          type="number"
+          name="cantidad"
+          id="cantidad"
+          placeholder="Cuantos"
+        />
+        <br />
+        <input
+          type="checkbox"
+          name="Campechano"
+          id="Campechano"
+          value="Campechano"
+        />
+        <label for="Campechano">Campechano</label>
+        <input
+          type="number"
+          name="cantidad"
+          id="cantidad"
+          placeholder="Cuantos"
+        />
+        <br /><br />
+        <label for="Nombre">Como se llama usted joven?</label>
+        <input
+          type="text"
+          name="Nombre"
+          id="Nombre"
+          placeholder="Para quien son guero?"
+        />
+        <br /><br />
+        <label for="Direccion">A donde lo mandamos?</label>
+        <input
+          type="text"
+          name="Direccion"
+          id="Direccion"
+          placeholder="A donde lo mandamos?"
+        />
+        <button type="submit">Mandamelos de volada</button>
+        <br /><br />
+      </form>
     </section>
   </body>
 </html>
