@@ -1,0 +1,352 @@
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;  /* 1REM = 10px  */
+  font-family: Mustica;
+}
+
+@font-face {
+  font-family: Mustica;
+  src: url(../Assets/Fonts/MusticaPro-SemiBold.otf);
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5rem;
+  height: 3rem;
+}
+
+.logo p{
+  color: #4769ef;
+  font-size: 4rem;
+  font-weight: bolder;
+}
+
+.navbar {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgba(105, 105, 105, 0.647);
+  font-size: 2rem;
+  text-decoration: none;
+}
+
+.navbar .btnNavbar {
+  width: 12rem;
+  height: 6rem;
+  background-color: #274eeadf;
+  color: white;
+  border-radius: 0.5rem;
+}
+
+.sectionSchedule{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 0rem 5rem 5rem 5rem;
+}
+
+.column1Schedule {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 100%;
+  height: 100%;
+}
+
+.titleColumn1 {
+  color: rgb(4, 30, 179);
+  font-size: 4rem;
+  padding-top: 15%;
+}
+
+.titleColumn1 h1{
+  margin: auto;
+}
+
+.paragraph {
+  color: rgba(105, 105, 105, 0.647);
+  font-size: 2rem;
+}
+
+.notes {
+  width: 350px;
+  display: flex;
+  font-size: 1.5rem;
+}
+
+.note1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  align-items: center;
+  margin: 1rem;
+}
+
+.note1 span {
+  color: rgb(226, 193, 6);
+}
+
+.note1 p {
+  color: #274eeadf;
+}
+
+.note2{
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  align-items: center;
+}
+
+.note2 span {
+  color: rgb(226, 226, 6);
+}
+
+.note2 p {
+  color: #274eeadf;
+}
+
+.column2Schedule {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.background {
+  width: 100%;
+  background: rgb(35,187,255);
+background: linear-gradient(118deg, rgba(35,187,255,1) 30%, rgba(20,120,164,1) 60%);
+}
+
+.doc1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.doc1 img{
+  width: 70%;
+}
+
+.schedule {
+  margin-top: -25rem;
+  display: flex;
+  flex-direction: column;
+  padding-left: 5rem;
+}
+
+.titleSchedule {
+  color: #4769ef;
+  font-size: 2rem;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.titleSchedule span {
+  color: #4769ef;
+}
+
+.scheduleVaccination {
+  width: 75%;
+  height: 12rem;
+  border-radius: 0.5rem;
+  background-color: #dfe6ffce;
+  margin-left: 5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.schedulePlace {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font-size: 1.5rem;
+  color: #4769ef;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+#loc {
+  background: transparent;
+  border: none;
+  padding-left: 2.5rem;
+  font-size: 2rem;
+  color: rgb(0, 0, 96);
+}
+
+input[type="date"] {
+  background: transparent;
+  border: none;
+  padding-left: 2.5rem;
+  font-size: 2rem;
+}
+
+.btnSubmit{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1.5rem;
+  width: 12rem;
+  height: 6rem;
+  background-color: #274eeadf;
+}
+
+.btnSubmit button {
+  background: transparent;
+  border: none;
+  color: white;
+  font-size: 2rem;
+}
+
+/* Comienza la segunda seccion */
+
+.partners {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logoPartner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+  height: 20rem;
+  padding: 5rem;
+}
+
+.logoPartner img {
+  width: 75%;
+  height: 50%;
+  opacity: 0.1;
+}
+
+.whyVaccine {
+  width: 100%;
+  padding: 5rem;
+}
+
+.whyVaccine h2{
+  font-size: 5rem;
+  color: rgb(0, 0, 96);
+}
+
+.whyVaccine p {
+  font-size: 2.5rem;
+}
+
+.cardsWhy {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.titleWhy{
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  font-size: 1.5rem;
+}
+
+.cardWhy {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  width: 10%;
+}
+
+.cardWhy:hover {
+box-shadow:
+  inset 0 -3em 3em rgba(0,0,0,0.1),
+    0 0  0 2px rgb(255,255,255),
+    0.3em 0.3em 1em rgba(0,0,0,0.3);
+}
+
+.cardWhy span {
+  color: #4769ef;
+}
+
+.cardWhy p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.preparations {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 0rem 5rem 5rem 5rem;
+}
+.column1Preparations {
+
+}
+
+.backgroundP2 {
+  background: rgb(2,87,126);
+  background: linear-gradient(360deg, rgba(2,87,126,1) 50%, rgba(255,255,255,1) 50%);
+}
+
+.person1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.person1 img{
+  width: 70%;
+}
+
+.columnPreparations {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: left;
+}
+
+.generalText h2{
+  font-size: 5rem;
+  color: #274eeadf;
+}
+
+.generalText p {
+  font-size: 2rem;
+}
+
+.listBefore {
+  padding: 10rem;
+  width: 50%;
+}
+
+.term {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding: 2rem;
+}
+
+.term span {
+  color: #4769ef;
+}
+
+.term h4 {
+  font-size: 1.5rem;
+}

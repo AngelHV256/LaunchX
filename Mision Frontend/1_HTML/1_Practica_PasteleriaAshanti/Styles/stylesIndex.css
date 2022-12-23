@@ -1,0 +1,302 @@
+* {
+  background-color: bisque;
+  font-family: "Marchila";
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Marchila";
+  src: url(../Assets/Fonts/Marchila.otf);
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 250px;
+}
+
+.header .logo img {
+  width: 325px;
+  height: 200px;
+}
+
+.header .navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 32px;
+  width: 60%;
+}
+
+.header .navbar a .material-icons {
+  font-size: 38px;
+  color: #820263;
+}
+
+p {
+  font-size: 20px;
+  color: #820263;
+  text-align: center;
+}
+
+a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: #f27a7d;
+  margin: 0 20px;
+}
+
+a:hover {
+  color: #820263;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.container .principalImg {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 72px;
+  color: #f27a7d;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  font-size: 48px;
+  color: #820263;
+  margin: 0;
+  padding: 0;
+}
+
+.container .principalImg img {
+  display: inline-block;
+  width: 1080px;
+  height: 720px;
+  border-radius: 10px;
+  visibility: visible;
+}
+
+.historia {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0px;
+  padding: 0px 200px;
+  text-align: center;
+}
+
+.suc1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+  padding: 0px 200px;
+  text-align: right;
+}
+
+.suc1:hover {
+  border: 1px solid #820263;
+}
+
+.suc1 img {
+  width: 500px;
+  height: 400px;
+  border-radius: 10px;
+}
+
+.suc1 .desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: right;
+  width: 800px;
+  height: 400px;
+}
+
+.suc1 .desc h3 {
+  font-size: 40px;
+  color: #f27a7d;
+  margin: 0%;
+  padding: 0%;
+}
+
+.suc1 .desc p {
+  font-size: 22px;
+  color: #820263;
+  text-align: right;
+}
+
+.suc2 {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px 0px;
+  padding: 0px 200px;
+  text-align: left;
+}
+
+.suc2:hover {
+  border: 1px solid #820263;
+}
+
+.suc2 img {
+  width: 500px;
+  height: 400px;
+  border-radius: 10px;
+}
+
+.suc2 .desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  width: 800px;
+  height: 400px;
+}
+
+.suc2 .desc h3 {
+  font-size: 40px;
+  color: #f27a7d;
+  margin: 0%;
+  padding: 0%;
+}
+
+.suc2 .desc p {
+  font-size: 22px;
+  color: #820263;
+  text-align: left;
+}
+
+.horarios {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0px;
+  padding: 0px 200px;
+  text-align: center;
+}
+
+.horarios table {
+  width: 100%;
+  font-size: 25px;
+  color: #820263;
+}
+
+.horarios table th {
+  color: #f27a7d;
+  padding: 10px;
+}
+
+.horarios table td {
+  padding: 10px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 250px;
+}
+
+.footer .contactoTrad {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 50%;
+}
+
+.footer .redes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 32px;
+  width: 50%;
+}
+
+button {
+  width: 200px;
+  height: 100px;
+  background-color: #f27a7cae;
+  border: none;
+  border-radius: 10px;
+  color: #820263;
+}
+
+button:hover {
+  width: 300px;
+  height: 150px;
+  font-size: 32px;
+  background-color: #f27a7d;
+  color: #820263;
+}
+
+.pedido {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.galeria{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5px;
+  width: 1080px;
+}
+
+.columna{
+  flex: 25%;
+  padding: 5px;
+}
+
+.columna img{
+    margin-top: 5px;
+    width: 500px;
+  height: 500px;
+  border-radius: 10px;
+  opacity: 0.5;
+}
+
+.columna img:hover{
+    opacity: 1;
+}
+
+@media (max-width: 800px){
+    .columna{
+        flex: 50%;
+    }
+}
+
+@media (max-width: 600px){
+    .columna{
+        flex: 100%;
+    }
+}
