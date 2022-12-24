@@ -241,13 +241,13 @@ input[type="date"] {
 }
 
 .whyVaccine {
-  width: 100%;
+  width: 75%;
   padding: 5rem;
 }
 
 .whyVaccine h2{
   font-size: 5rem;
-  color: rgb(0, 0, 96);
+  color: #000060;
 }
 
 .whyVaccine p {
@@ -279,6 +279,7 @@ box-shadow:
   inset 0 -3em 3em rgba(0,0,0,0.1),
     0 0  0 2px rgb(255,255,255),
     0.3em 0.3em 1em rgba(0,0,0,0.3);
+    border-radius: 1rem;
 }
 
 .cardWhy span {
@@ -296,13 +297,12 @@ box-shadow:
   grid-template-columns: 1fr 1fr;
   padding: 0rem 5rem 5rem 5rem;
 }
-.column1Preparations {
+/* .column1Preparations {
 
-}
+} */
 
 .backgroundP2 {
-  background: rgb(2,87,126);
-  background: linear-gradient(360deg, rgba(2,87,126,1) 50%, rgba(255,255,255,1) 50%);
+  background: linear-gradient(360deg, rgba(35,187,255,1) 30%, rgba(20,120,164,1) 50% , rgba(255,255,255,1) 50%);
 }
 
 .person1 {
@@ -324,7 +324,7 @@ box-shadow:
 
 .generalText h2{
   font-size: 5rem;
-  color: #274eeadf;
+  color: #000060;
 }
 
 .generalText p {
@@ -348,5 +348,161 @@ box-shadow:
 }
 
 .term h4 {
+  font-size: 1.5rem;
+}
+
+.textContact {
+  width: 45%;
+  height: 30rem;
+  padding: 5rem;
+}
+
+.textContact h2 {
+  font-size: 5rem;
+  color: #000060;
+}
+
+.textContact p {
+  font-size: 2rem;
+}
+
+.contact {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 5rem;
+}
+
+.column1Contact {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.cardContact {
+  display: flex;
+  flex-direction: column;
+  font-size: 2rem;
+}
+
+.infoContact {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+}
+
+.infoContact span {
+  font-size: 4rem;
+  color: #4769ef;
+}
+
+.titleContact {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: left;
+  padding-left: 2rem;
+}
+
+.titleContact h3 {
+  margin-bottom: 0;
+}
+
+.titleContact p {
+  margin-top: 0;
+}
+
+.btnSend {
+  font-size: 2rem;
+  background-color: transparent;
+  width: 50%;
+  text-align: center;
+  border-radius: 1rem;
+}
+
+.btnSend a {
+  text-decoration: none;
+  color:#000060;
+  width: 100%;
+}
+
+.btnSend a:hover {
+  color: white;
+  background-color: #4769ef;
+}
+
+.btnSend:hover {
+  color: white;
+  background-color: #4769ef;
+}
+
+.column2Contact {
+  margin-top: -10rem;
+}
+
+.background3 {
+  background: linear-gradient(360deg, rgba(35,187,255,1) 30%, rgba(20,120,164,1) 50% , rgba(255,255,255,1) 50%);
+}
+
+.nurse2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nurse2 img{
+  width: 50%;
+}
+
+footer {
+  background-color:rgba(195, 195, 195, 0.5);
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 5rem;
+}
+
+.column1Footer {
+  display: flex;
+  flex-direction: column;
+}
+
+.column1Footer h3 {
+  color: #000060;
+  font-size: 2rem;
+}
+
+.column1Footer p {
+  font-size: 1.5rem;
+}
+
+.column2Footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 1rem;
+}
+
+.titleFooter h3 {
+  font-size: 2rem;
+}
+
+.titleFooter a {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.5rem;
+  margin-top: 5rem;
+  text-decoration: none;
+}
+
+.copyright {
+  display: flex;
+  justify-content: space-between;
+  padding: 5rem 5rem 0rem 5rem;
+  width: 85%;
+}
+
+.copyright p {
   font-size: 1.5rem;
 }
